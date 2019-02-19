@@ -12,7 +12,7 @@ before_script:
 - psql -U postgres -c "create extension fuzzystrmatch"
 env:
   global:
-  - DB_NAME=ihl_test
+  - DB_NAME=rl_test
   - DB_USERNAME=postgres
   - DB_PASSWORD=""
   - DB_PASSWORD=127.0.0.1
